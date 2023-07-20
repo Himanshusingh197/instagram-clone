@@ -1,0 +1,185 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    width: 348px;
+    height: 370px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+.logo{
+    margin: 30px;
+}
+.login-container{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+}
+.input-group{
+    width: 268px;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+.input-group input{
+    width: 258px;
+    height: 36px;
+    padding: 9px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 2px;
+    line-height: 21px;
+    box-sizing: border-box;
+    background-color: rgb(250, 250, 250);
+    outline: none;
+    border-radius: 4px;
+}
+.login-btn-container{
+    border: none;
+    margin-top: 16px;
+}
+.login-btn-container button{
+    width: 258px;
+    height: 32px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(7, 156, 255, 0.7);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight:600;
+    user-select: none;
+    -webkit-user-select: none;
+    border: none;
+}
+.divider-container{
+    display: block;
+    margin: 18px 0 4px 0;
+    width: 268px;
+    height: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.divider-container .seperator{
+    width: 100%;
+    background-color: #dbdbdb;
+    height: 1px;
+}
+.divider-container span{
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    padding: 0 20px;
+    top: -10px;
+    text-transform: uppercase;
+    color: #737373;
+    font-size: 13px;
+    font-weight: 600;
+}
+.login-fb-container {
+    width: 268px;
+    height: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+#fb-login {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+    color: #385185;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    user-select: none;
+    outline: none;
+}
+#fb-logo {
+    width: 15px;
+    height: auto;
+    position: relative;
+    top: 2px;
+    padding-right: 5px;
+}
+.forgot-account{
+    margin-top: 12px;
+}
+.forgot-account a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(0 , 15, 107);
+}
+.bottom-text{
+    margin-top: 25px;
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.bottom-text a{
+    color: rgba(7, 156, 255, 0.939);
+    font-size: 14px;
+    font-weight: 500;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+.img-container img {
+    margin: 0px 5px;
+}
+#img-google-play{
+    width: 150px;
+    height: 50px;
+}
+#img-microsoft{
+    width: 120px;
+    height: 50px;
+}
+footer {
+    position: relative;
+    /* background-color: rgba(255, 0, 00, 0.4); */
+}
+.footer-content{
+    margin-top: 200px;
+    position: relative;
+}
+.options-container{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.options-container a, select,
+.options-container span {
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #737373;
+    margin: 10px;
+    /* margin-top: 10px; */
+}
+@media screen and (max-width:500px) {
+    .container,.bottom-text{
+        border: none;
+        width: 100%;
+        margin-top: 0;
+    }
+}
